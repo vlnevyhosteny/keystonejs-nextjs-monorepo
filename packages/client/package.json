@@ -1,6 +1,5 @@
 {
   "name": "@keystonejs-nextjs-monorepo/client",
-  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
