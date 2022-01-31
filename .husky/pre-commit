@@ -1,6 +1,9 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn format
-git add -A
-yarn lint
+if [ -z "$HUSKY_SKIP_HOOKS" ]
+then
+  yarn format
+  git add -A
+  yarn lint
+fi
