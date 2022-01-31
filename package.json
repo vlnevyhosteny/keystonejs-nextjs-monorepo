@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "keystonejs-nextjs-monorepo",
+  "devDependencies": {
+    "chalk": "^2.0.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

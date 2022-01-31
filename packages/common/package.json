@@ -1,8 +1,8 @@
 {
-  "name": "common",
+  "name": "@keystonejs-nextjs-monorepo/common",
   "version": "0.0.1",
   "description": "Common library for both server and client.",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "author": "vlnevyhosteny",
   "license": "MIT",
   "private": true,
