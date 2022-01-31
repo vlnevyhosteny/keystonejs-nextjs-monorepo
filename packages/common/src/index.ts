@@ -1,5 +1,1 @@
-export const foo = 'baz'
-
-
-
-
+export const foo = 'baz';

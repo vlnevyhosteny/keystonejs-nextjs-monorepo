@@ -3,7 +3,9 @@
   "name": "keystonejs-nextjs-monorepo",
   "scripts": {
     "format": "prettier --config .prettierrc.js './**/*.ts' --write",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint . --ext .ts --fix"
   },
   "devDependencies": {
     "chalk": "^2.0.1",
