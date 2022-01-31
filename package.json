@@ -1,8 +1,17 @@
 {
   "private": true,
   "name": "keystonejs-nextjs-monorepo",
+  "scripts": {
+    "format": "prettier --config .prettierrc.js './**/*.ts' --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn format"
+    }
+  },
   "devDependencies": {
-    "chalk": "^2.0.1"
+    "chalk": "^2.0.1",
+    "husky": "^7.0.4"
   },
   "workspaces": [
     "packages/*"
