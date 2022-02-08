@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/vlnevyhosteny/keystonejs-nextjs-monorepo/compare/v1.0.0...v1.0.1) (2022-02-08)
+
+
+### Bug Fixes
+
+* **workspace:** add missing npm semantic-release plugin ([cacfefc](https://github.com/vlnevyhosteny/keystonejs-nextjs-monorepo/commit/cacfefc125bb989b97daff6f645ed876d0792d71))
+
 # 1.0.0 (2022-01-31)
 
 
