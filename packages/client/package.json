@@ -12,7 +12,8 @@
   "dependencies": {
     "next": "latest",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "@keystonejs-nextjs-monorepo/common": "*"
   },
   "devDependencies": {
     "@types/node": "^17.0.13",
