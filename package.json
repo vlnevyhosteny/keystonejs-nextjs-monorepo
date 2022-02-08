@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "keystonejs-nextjs-monorepo",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "repositoryUrl": "https://github.com/vlnevyhosteny/keystonejs-nextjs-monorepo",
   "scripts": {
     "format": "prettier --config .prettierrc.js './**/*.ts' --write",
@@ -23,7 +23,11 @@
   "release": {
     "branches": [
       "main",
-      { "name": "beta", "channel": "beta", "prerelease": true }
+      {
+        "name": "beta",
+        "channel": "beta",
+        "prerelease": true
+      }
     ],
     "plugins": [
       "@semantic-release/commit-analyzer",
