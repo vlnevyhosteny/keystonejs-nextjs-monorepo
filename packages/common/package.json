@@ -5,6 +5,7 @@
   "author": "vlnevyhosteny",
   "license": "MIT",
   "private": true,
+  "version": "0.0.0",
   "dependencies": {
     "typescript": "^4.5.5"
   },

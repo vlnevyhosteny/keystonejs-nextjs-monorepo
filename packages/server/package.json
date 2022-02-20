@@ -1,6 +1,7 @@
 {
   "name": "@keystonejs-nextjs-monorepo/server",
   "private": true,
+  "version": "0.0.0",
   "scripts": {
     "dev": "keystone dev",
     "start": "keystone start",
