@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/vlnevyhosteny/keystonejs-nextjs-monorepo/compare/v1.0.2...v1.1.0) (2022-02-20)
+
+
+### Bug Fixes
+
+* **workspaces:** hoisting of node modules ([71b1b2c](https://github.com/vlnevyhosteny/keystonejs-nextjs-monorepo/commit/71b1b2ceb7d36505802fd514db7b0d525ff75d7f))
+
+
+### Features
+
+* **workspaces:** dev run info ([cd3092b](https://github.com/vlnevyhosteny/keystonejs-nextjs-monorepo/commit/cd3092b7288f195696025eeeeaccd91ab431ac92))
+
 ## [1.0.2](https://github.com/vlnevyhosteny/keystonejs-nextjs-monorepo/compare/v1.0.1...v1.0.2) (2022-02-08)
 
 
