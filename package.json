@@ -7,7 +7,9 @@
     "format": "prettier --config .prettierrc.js './**/*.ts' --write",
     "prepare": "husky install",
     "lint": "eslint . --ext .ts",
-    "lint-fix": "eslint . --ext .ts --fix"
+    "lint-fix": "eslint . --ext .ts --fix",
+    "dev:server": "yarn workspace @keystonejs-nextjs-monorepo/server run dev",
+    "dev:client": "yarn workspace @keystonejs-nextjs-monorepo/client run dev"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",

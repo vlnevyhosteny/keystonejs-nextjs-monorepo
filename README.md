@@ -61,6 +61,4 @@ yarn install
 
 Just change names in *package.json* files and install packages.
 
-To run bootstraped code locally run:
-
-// TBD
+To run bootstraped code locally run `yarn dev:server` to run server and `yarn dev:client` to run client.

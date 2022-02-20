@@ -11,7 +11,7 @@
     "lint-fix": "eslint . --ext .ts --fix"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "@keystonejs-nextjs-monorepo/common": "*"
